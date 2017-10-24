@@ -1,16 +1,19 @@
 *{
   font-family: sans-serif ;
-
 }
+
 .menu{
 width: 100%;
+
 
 }
 ul{
   list-style: none;/*quitando viñetas*/
   float: left;/*haciendo que todas las lineas floten a la derecha*/
 }
+header {
 
+}
 li{
   display: inline-block;
 }
@@ -36,7 +39,7 @@ a{
 
 }
 .boton{
-  width: auto;
+  width:auto;
   height: auto;
   border-radius: 5px;
   background-color: green;
@@ -46,11 +49,27 @@ a{
 
 }
 .submenu{
+  clear: both;
   display: inline-block;
+  width: 100%;
+  
+
+}
+section{
+  width: 100%;
+  clear: both;
+}
+#columns{
+  width: 1300px;
+  column-count: 4;
+
+}
+.picture{
+  float: left;
 
 }
 
-section{
-  width: auto;
-  height: auto;
+img{
+max-width: 100%;
+border-radius: 15px;
 }
