@@ -3,16 +3,20 @@
 }
 
 .menu{
-width: 100%;
-
-
+  width: 100%;
 }
+
 ul{
   list-style: none;/*quitando viñetas*/
   float: left;/*haciendo que todas las lineas floten a la derecha*/
 }
 header {
-
+width: 1335px;
+position: fixed;
+background-color: white;
+margin: 0;
+padding: 0;
+top: 0;
 }
 li{
   display: inline-block;
@@ -46,27 +50,26 @@ a{
   padding: 20px;
   margin-left: 10px;
   float: left;
-
 }
+
 .submenu{
-  clear: both;
+  margin: 0;
+  padding: 10px 0;
   display: inline-block;
   width: 100%;
-  
 
 }
 section{
-  width: 100%;
+  width: 1300px;
   clear: both;
 }
 #columns{
   width: 1300px;
+  margin: 8px;
   column-count: 4;
-
 }
 .picture{
   float: left;
-
 }
 
 img{
