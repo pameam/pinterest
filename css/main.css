@@ -1,17 +1,20 @@
 *{
   font-family: sans-serif ;
+
 }
 .menu{
 width: 100%;
 
 }
 ul{
-  list-style: none;
-  float: left;
+  list-style: none;/*quitando viñetas*/
+  float: left;/*haciendo que todas las lineas floten a la derecha*/
 }
+
 li{
   display: inline-block;
 }
+/*añadiendo a la clase barra que se encuentra dentro de menu color,borde circular,margen , tamaño y relleno*/
 .menu .barra{
   background-color: #efefef;
   border-radius: 5px;
@@ -19,97 +22,30 @@ li{
   width: 70%;
   padding: 10px;
 }
-
-
+/*color del icono pinterest*/
 .red{
  color: #c92228;
 }
+/*color del icono usuario lista comentario */
 .icons{
   color:#b5b5b5;
 }
-
-
-
-/*
-*{
-  font-family: monospace;
-}
-.container{
-box-sizing: border-box;
-position: absolute;
-}
-
-div{
-  display: inline-block;
-  margin: 15px;
-  max-width: 100%; /*para que la imagen se ajuste a su contenedor*/
-/*}
-h1{
-  width: 400px;
-  height:30px;
-  margin: 5px;
-  padding:0px;
-  left: 20px;
-  position: relative;
-}
-.box-line{
-  width: 80px;
-  height: 5px;
-  left: 35px;
-  margin: 0px;
-  background-color: black;
-  position: absolute;
-}
-.img{
- float: left;
- position: relative;
- opacity: 0.8;
-}
-#bg-woman1 {
-    width: 388px;
-    height: 422px;
-    /*top: 200px;*/
-  /*  background: url('../assets/image/css_sprites.png') -10px -451px;
-}
-#bg-woman2 {
-    width: 393px; height: 421px;
-    background: url('../assets/image/css_sprites.png') -10px -10px;
-}
-#bg-woman4 {
-    width: 398px; height: 415px;
-    background: url('../assets/image/css_sprites.png')-841px -447px;
-  }
-/*#bg-woman4 {
-    width: 398px; height: 415px;
-    background: url('../assets/image/css_sprites.png') -423px -10px;
-}*/
-/*#bg-woman6 {
-    width: 392px; height: 417px;
-    background: url('../assets/image/css_sprites.png') -841px -10px;
-}/*
-#bg-woman3 {
-    width: 387px; height: 421px;
-    background: url('../assets/image/css_sprites.png') -841px -447px;
-}*/
-/*#bg-woman3 {
-    width: 387px; height: 421px;
-    background: url('../assets/image/css_sprites.png') -423px -10px;
-  }
-#bg-woman5 {
-    width: 392px; height: 417px;
-    background: url('../assets/image/css_sprites.png') -418px -451px;
-}
-span{
-  /*position: relative;/*aplicamos position absolute para posicionar el texto encima de la imagen*/*/
-  /*right: 100px;
-  left: 250px;
-  top: 395px;
+a{
+  text-decoration: none;
   color: white;
-  text-shadow: 1px 2px #000;
+
 }
-.img:nth-child(4) {
-    clear: both;
+.boton{
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  background-color: green;
+  padding: 20px;
+  margin-left: 10px;
+  float: left;
+
 }
-.img span{
-  position: absolute;
-}*/
+.submenu{
+  display: inline-block;
+
+}
