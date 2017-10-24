@@ -49,3 +49,8 @@ a{
   display: inline-block;
 
 }
+
+section{
+  width: auto;
+  height: auto;
+}
