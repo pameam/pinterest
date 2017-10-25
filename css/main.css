@@ -1,40 +1,56 @@
-*{
+body{
+  width: 100%;
+  height: 100%;
   font-family: sans-serif ;
 }
 
 .menu{
-  width: 100%;
+padding-left: 10px;
+top: 0px;
+overflow: auto;
 }
-
-ul{
-  list-style: none;/*quitando viñetas*/
-  float: left;/*haciendo que todas las lineas floten a la derecha*/
+hr{
+  display: inline-block;
+  width: 1600px;
+  margin: 5px;
+  color: #b5b5b5;
 }
 header {
-width: 1335px;
-position: fixed;
+width: 1660px;
+height: 195px;
+position:fixed;
 background-color: white;
 margin: 0;
 padding: 0;
 top: 0;
+right: 0;
+padding-bottom: 10px;
 }
 li{
   display: inline-block;
 }
 /*añadiendo a la clase barra que se encuentra dentro de menu color,borde circular,margen , tamaño y relleno*/
-.menu .barra{
+.menu .input-b{
   background-color: #efefef;
   border-radius: 5px;
-  margin: 0 16px;
+  margin-top: 0;
+  margin-left: 20px;
   width: 70%;
   padding: 10px;
+  }
+.menu .submenu{
+  text-align: center!important;
+  display: inline-block;
 }
+
 /*color del icono pinterest*/
-.red{
+.icons-pinterest{
  color: #c92228;
+ padding-left: 90px;
 }
 /*color del icono usuario lista comentario */
 .icons{
+  padding-left: 15px;
   color:#b5b5b5;
 }
 a{
@@ -42,31 +58,58 @@ a{
   color: white;
 
 }
-.boton{
-  width:auto;
-  height: auto;
-  border-radius: 5px;
-  background-color: green;
-  padding: 20px;
-  margin-left: 10px;
-  float: left;
-}
-
 .submenu{
   margin: 0;
-  padding: 10px 0;
-  display: inline-block;
-  width: 100%;
+  overflow: auto;
+  padding-left: 300px;
 
 }
+.boton{
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  float: left;
+}
+.boton-1 {
+  background-color:#bba27f;
+}
+.boton-2 {
+  background-color:#9bcc5a;
+}
+.boton-3 {
+  background-color:#646753;
+}
+.boton-4 {
+  background-color:#5a5a5a;
+}
+.boton-5 {
+  background-color:#a5a5a5;
+}
+.boton-6 {
+  background-color:#847a66;
+}
+.boton-7 {
+  background-color:#5a5a5a;
+}
+.boton-8{
+  background-color:#6b4839;
+}
+.boton-9 {
+  background-color:#de3242;
+}
+
 section{
-  width: 1300px;
+  width: 1650px;
   clear: both;
 }
 #columns{
-  width: 1300px;
+  width: 1630px;
   margin: 8px;
   column-count: 4;
+  padding-top: 200px;
 }
 .picture{
   float: left;
@@ -75,4 +118,5 @@ section{
 img{
 max-width: 100%;
 border-radius: 15px;
+display: inline-block;
 }
